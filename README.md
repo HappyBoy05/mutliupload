@@ -20,6 +20,8 @@ _🎯 Follow me and star this repo for more telegram bots. @HxBots
 
 *_Click below button to deploy heroku and fill requred vars. Nothing else._*
 
+
+
 ### 💫 Heroku Vars
  - APP_ID: Get it from [my.telegram.org](https://my.telegram.org).
  - API_HASH: Get it from [my.telegram.org](https://my.telegram.org).
@@ -29,7 +31,9 @@ _🎯 Follow me and star this repo for more telegram bots. @HxBots
  - OWNRID: OwnerId for commands (may be in future).
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?)
-
+<a href="https://heroku.com/deploy?template=https://github.com/shiva20991/MultiUpload-Bot">
+  <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy">
+</a>
 ## 🚩 Credits
 - [Lucifeermorningstar](https://github.com/lucifeermorningstar) for Telethon Bot Base. (A Daisy Owner)
 - [Amarnath C](https://github.com/AmarnathCJD) for Force Sub
