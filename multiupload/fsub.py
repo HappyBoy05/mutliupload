@@ -15,7 +15,7 @@ async def check_participant(user_id, chat_id, reply_id, cb=False):
 		return True
 	except:
 		if not cb:
-			await anjana.send_message(user_id, '**You are not joined to my update channel. Please join to my update channel and start me again 👀**', buttons=[
+			await anjana.send_message(user_id, '**You are not joined to my channel. Please join to my channel to use me and start me again 👀 or press check**', buttons=[
 				Button.url('Join Now!', f't.me/{Config.CHNAME}'),
 				Button.inline('Check', data='chk')
 			], reply_to=reply_id)
@@ -39,5 +39,5 @@ async def _(event):
 		await event.delete()
 		await anjana.send_file(event.chat_id, random.choice(s), reply_to=event)
 		await event.reply(f"Hey [{xx.first_name}]({xx.id}), I am **oVo MultiUploader Bot**", buttons=[
-				Button.url('Support Chat 💭', 't.me/hxsupport')
+				Button.url('🤖 HB4All Bot', 't.me/hb4all_bot')
 			])
